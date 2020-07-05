@@ -2,11 +2,10 @@
 This project is American Sign Language classifier.
 
 
-Uses python, openCV and Tensorflow to train Inception-V3 model, a Deep CNN image classifier. The Inception-V3 should be trained ny Imagenet dataset which is already been taken
-care in Train.py. 
+Uses python, openCV and Tensorflow to train Inception-V3 model, a Deep CNN image classifier. The Inception-V3 should be trained by Imagenet dataset which is done in Train.py. 
 
 
-The last layer of Inception-V3 CNN can be retrained to identify numerous new categories. For this project the layer will be trained to classify
+The last layer of Inception-V3 CNN can be retrained to identify numerous new categories. For this project the last layer will be trained to classify
 english alphabets represented by hand signs as used in American Sign Language. Few custom made hand signs must be included by the user for proper
 communication (explained in the dataset section).
 
@@ -15,20 +14,23 @@ Framework used for this project: [Simple transfer learning with an Inception V3 
 
 ## Requirements
 
-This project uses python 3.5 and the PIP following packages:
+This project uses python 3.5 and following packages:
 * opencv
 * tensorflow
 * matplotlib
 * numpy
-See requirements.txt for required packages and versions.
+See requirements.txt for details about package versions.
 
-### Install using PIP
+## For Demo: 
+### Step 1 : Install packages using PIP
 ```
 pip3 install -r requirements.txt
 ```
 
-## Dataset
-This project contains the code only. The dataset should be in the format like below:
+## Step 2 : Dataset
+This project contains the code only. This is because each category requires images > 3000 for good accuracy and this is not deasible to upload on git.
+
+The dataset should be in the format like below:
 
 ```
 |
